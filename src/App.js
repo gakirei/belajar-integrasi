@@ -4,15 +4,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <html>
     <BrowserRouter>
     <Navbar />
     <Routes>
+      <Route path="/"/>
+    </Routes>
     </BrowserRouter>
-    </html>
 
 
   );
 }
 
 export default App;
+
